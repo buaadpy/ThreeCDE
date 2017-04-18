@@ -1,0 +1,42 @@
+<html>
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <title>重置密码</title>
+
+    <link rel="stylesheet" href="../resources/css/style.css">
+    <script src="https://cdn1.lncld.net/static/js/av-mini-0.6.4.js"></script>
+
+    <script>
+        AV.initialize("7Jz1djXk87RL4Scd1azW2ssS-gzGzoHsz", "bwzAh4qwVbpVmSPkLqNRlvIg");
+    </script>
+</head>
+
+<body style="background-image: url(../resources/images/background-fp.jpg); background-position: center; background-repeat: no-repeat;">
+
+<div class="page-container">
+    <h1>忘记ThreeCDE密码</h1>
+    <input type="email" name="email" class="username" placeholder="请输入您的注册邮箱 (email)" id="myeml" autocomplete="off">
+    <button type="submit" class="submit_button" onclick="forgetpwd()">重置密码</button>
+</div>
+
+<script language="javascript" type="text/javascript">
+    function forgetpwd() {
+        var eml = document.getElementById("myeml").value;
+        AV.User.requestPasswordReset(eml, {
+            success: function () {
+                alert("重置密码链接已发送至您的邮箱，请登录邮箱修改密码");
+                window.location.href = "../index.html";
+            },
+            error: function (error) {
+                // Show the error message somewhere
+                alert("Error: " + error.code + " " + error.message);
+            }
+        })
+    }
+</script>
+
+</body>
+</html>

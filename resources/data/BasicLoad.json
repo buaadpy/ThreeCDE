@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "basicload": [
+        {"id":1,  "name": "Cube"},
+        {"id":2,  "name": "Cylinder"},
+        {"id":3,  "name": "Sphere"},
+		{"id":4,  "name": "Panel"}
+    ]
+}

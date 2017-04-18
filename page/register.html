@@ -1,0 +1,63 @@
+<html>
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <title>注册新用户</title>
+
+    <link rel="stylesheet" href="../resources/css/style.css">
+    <script src="https://cdn1.lncld.net/static/js/av-mini-0.6.4.js"></script>
+    <script>
+        AV.initialize("7Jz1djXk87RL4Scd1azW2ssS-gzGzoHsz", "bwzAh4qwVbpVmSPkLqNRlvIg");
+    </script>
+
+    <script language="javascript" type="text/javascript">
+        function reg(myname, mypwd, myeml) {
+            var user = new AV.User();
+            user.set("username", myname);
+            user.set("password", mypwd);
+            user.set("email", myeml);
+
+            user.signUp(null, {
+                success: function (user) {
+                    alert("新用户注册成功！");
+                    window.location.href = "../index.html";
+                },
+                error: function (user, error) {
+                    // 失败了
+                    alert("Error: " + error.code + " " + error.message);
+                }
+            });
+        }
+
+        function validate() {
+            var myname = document.getElementById("myname").value;
+            if (myname == "" || myname.length > 32){
+                alert("用户名为空或过长，请重新输入");
+                return;
+            }
+            var mypwd = document.getElementById("mypwd").value;
+            if (mypwd == "" || mypwd.length > 32){
+                alert("密码为空或过长，请重新输入");
+                return;
+            }
+            var myeml = document.getElementById("myeml").value;
+            if (myeml == ""){
+                alert("请输入一个邮箱，用于找回密码");
+                return;
+            }
+            reg(myname, mypwd, myeml);
+        }
+    </script>
+</head>
+
+<body style="background-image: url(../resources/images/background-reg.jpg); background-position: center; background-repeat: no-repeat;">
+<div class="page-container">
+    <h1>欢迎使用ThreeCDE</h1>
+    <input type="text" name="username" class="username" placeholder="请输入您的用户名 (username)" id="myname" autocomplete="off">
+    <input type="password" name="password" class="password" placeholder="请输入您的密码 (password)" id="mypwd" autocomplete="off">
+    <input type="email" name="email" class="username" placeholder="请输入您的邮箱 (email)" id="myeml" autocomplete="off">
+    <button type="submit" class="submit_button" onclick="validate()">注册新用户</button>
+</div>
+</body>
+</html>

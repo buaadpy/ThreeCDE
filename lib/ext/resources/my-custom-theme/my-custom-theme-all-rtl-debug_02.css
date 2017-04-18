@@ -1,0 +1,1112 @@
+/* line 363, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-right-tl,
+.x-panel-header-highlight-framed-right-bl,
+.x-panel-header-highlight-framed-right-ml {
+  padding-left: 0; }
+
+/* line 367, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-right-tc {
+  height: 5px; }
+
+/* line 370, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-right-bc {
+  height: 5px; }
+
+/* line 381, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-right-tl,
+.x-panel-header-highlight-framed-right-bl,
+.x-panel-header-highlight-framed-right-tr,
+.x-panel-header-highlight-framed-right-br,
+.x-panel-header-highlight-framed-right-tc,
+.x-panel-header-highlight-framed-right-bc,
+.x-panel-header-highlight-framed-right-ml,
+.x-panel-header-highlight-framed-right-mr {
+  zoom: 1;
+  background-image: url(images/panel-header/panel-header-highlight-framed-right-corners.gif); }
+
+/* line 397, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-rtl.x-panel-header-highlight-framed-right-tl, .x-rtl.x-panel-header-highlight-framed-right-ml, .x-rtl.x-panel-header-highlight-framed-right-bl, .x-rtl.x-panel-header-highlight-framed-right-tr, .x-rtl.x-panel-header-highlight-framed-right-mr, .x-rtl.x-panel-header-highlight-framed-right-br {
+  background-image: url(images/panel-header/panel-header-highlight-framed-right-corners-rtl.gif); }
+
+/* line 425, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-right-ml,
+.x-panel-header-highlight-framed-right-mr {
+  zoom: 1;
+  background-image: url(images/panel-header/panel-header-highlight-framed-right-sides.gif);
+  background-repeat: repeat-y; }
+
+/* line 437, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-right-mc {
+  padding: 5px 5px 5px 10px; }
+
+/* line 446, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-strict .x-ie7 .x-panel-header-highlight-framed-right-tl,
+.x-strict .x-ie7 .x-panel-header-highlight-framed-right-bl {
+  position: relative;
+  right: 0; }
+
+/*<if slicer>*/
+/* line 78, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/slicer.scss */
+.x-panel-header-highlight-framed-right:after {
+  display: none;
+  content: "x-slicer:corners:url(images/panel-header/panel-header-highlight-framed-right-corners.gif), corners-rtl:url(images/panel-header/panel-header-highlight-framed-right-corners-rtl.gif), sides:url(images/panel-header/panel-header-highlight-framed-right-sides.gif)"; }
+
+/*</if slicer>*/
+/* */
+/* line 137, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-bottom {
+  -moz-border-radius-topleft: 0;
+  -webkit-border-top-left-radius: 0;
+  border-top-left-radius: 0;
+  -moz-border-radius-topright: 0;
+  -webkit-border-top-right-radius: 0;
+  border-top-right-radius: 0;
+  -moz-border-radius-bottomright: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 9px 9px 10px 9px;
+  border-width: 0 1px 1px 1px;
+  border-style: solid;
+  background-color: red; }
+
+/* line 189, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-bottom-mc {
+  background-color: red; }
+
+/* line 235, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-nbr .x-panel-header-highlight-framed-bottom {
+  padding: 0 !important;
+  border-width: 0 !important;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  background-color: transparent; }
+
+/* line 255, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+body.x-nbr .x-panel-header-highlight-framed-bottom-frameInfo {
+  font-family: dh-0-0-5-5-0-1-1-1-9-9-10-9; }
+
+/* line 322, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-bottom-tl {
+  background-position: 0 -10px; }
+
+/* line 326, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-bottom-tr {
+  background-position: right -15px; }
+
+/* line 330, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-bottom-bl {
+  background-position: 0 -20px; }
+
+/* line 334, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-bottom-br {
+  background-position: right -25px; }
+
+/* line 338, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-bottom-ml {
+  background-position: 0 bottom; }
+
+/* line 342, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-bottom-mr {
+  background-position: right bottom; }
+
+/* line 346, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-bottom-tc {
+  background-position: 0 0; }
+
+/* line 350, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-bottom-bc {
+  background-position: 0 -5px; }
+
+/* line 357, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-bottom-tr,
+.x-panel-header-highlight-framed-bottom-br,
+.x-panel-header-highlight-framed-bottom-mr {
+  padding-right: 5px; }
+
+/* line 363, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-bottom-tl,
+.x-panel-header-highlight-framed-bottom-bl,
+.x-panel-header-highlight-framed-bottom-ml {
+  padding-left: 5px; }
+
+/* line 367, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-bottom-tc {
+  height: 0; }
+
+/* line 370, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-bottom-bc {
+  height: 5px; }
+
+/* line 381, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-bottom-tl,
+.x-panel-header-highlight-framed-bottom-bl,
+.x-panel-header-highlight-framed-bottom-tr,
+.x-panel-header-highlight-framed-bottom-br,
+.x-panel-header-highlight-framed-bottom-tc,
+.x-panel-header-highlight-framed-bottom-bc,
+.x-panel-header-highlight-framed-bottom-ml,
+.x-panel-header-highlight-framed-bottom-mr {
+  zoom: 1;
+  background-image: url(images/panel-header/panel-header-highlight-framed-bottom-corners.gif); }
+
+/* line 425, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-bottom-ml,
+.x-panel-header-highlight-framed-bottom-mr {
+  zoom: 1;
+  background-image: url(images/panel-header/panel-header-highlight-framed-bottom-sides.gif);
+  background-repeat: repeat-y; }
+
+/* line 437, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-bottom-mc {
+  padding: 9px 5px 6px 5px; }
+
+/* line 446, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-strict .x-ie7 .x-panel-header-highlight-framed-bottom-tl,
+.x-strict .x-ie7 .x-panel-header-highlight-framed-bottom-bl {
+  position: relative;
+  right: 0; }
+
+/*<if slicer>*/
+/* line 78, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/slicer.scss */
+.x-panel-header-highlight-framed-bottom:after {
+  display: none;
+  content: "x-slicer:corners:url(images/panel-header/panel-header-highlight-framed-bottom-corners.gif), sides:url(images/panel-header/panel-header-highlight-framed-bottom-sides.gif)"; }
+
+/*</if slicer>*/
+/* */
+/* line 137, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-left {
+  -moz-border-radius-topleft: 5px;
+  -webkit-border-top-left-radius: 5px;
+  border-top-left-radius: 5px;
+  -moz-border-radius-topright: 0;
+  -webkit-border-top-right-radius: 0;
+  border-top-right-radius: 0;
+  -moz-border-radius-bottomright: 0;
+  -webkit-border-bottom-right-radius: 0;
+  border-bottom-right-radius: 0;
+  -moz-border-radius-bottomleft: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 9px 9px 9px 10px;
+  border-width: 1px 0 1px 1px;
+  border-style: solid;
+  background-color: red; }
+
+/* line 178, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-rtl.x-panel-header-highlight-framed-left {
+  background-image: none;
+  background-color: red; }
+
+/* line 189, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-left-mc {
+  background-color: red; }
+
+/* line 235, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-nbr .x-panel-header-highlight-framed-left {
+  padding: 0 !important;
+  border-width: 0 !important;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  background-color: transparent; }
+
+/* line 255, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+body.x-nbr .x-panel-header-highlight-framed-left-frameInfo {
+  font-family: dh-5-0-0-5-1-0-1-1-9-9-9-10; }
+
+/* line 322, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-left-tl {
+  background-position: 0 -10px; }
+
+/* line 326, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-left-tr {
+  background-position: right -15px; }
+
+/* line 330, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-left-bl {
+  background-position: 0 -20px; }
+
+/* line 334, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-left-br {
+  background-position: right -25px; }
+
+/* line 338, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-left-ml {
+  background-position: 0 left; }
+
+/* line 342, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-left-mr {
+  background-position: right left; }
+
+/* line 346, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-left-tc {
+  background-position: 0 0; }
+
+/* line 350, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-left-bc {
+  background-position: 0 -5px; }
+
+/* line 357, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-left-tr,
+.x-panel-header-highlight-framed-left-br,
+.x-panel-header-highlight-framed-left-mr {
+  padding-right: 0; }
+
+/* line 363, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-left-tl,
+.x-panel-header-highlight-framed-left-bl,
+.x-panel-header-highlight-framed-left-ml {
+  padding-left: 5px; }
+
+/* line 367, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-left-tc {
+  height: 5px; }
+
+/* line 370, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-left-bc {
+  height: 5px; }
+
+/* line 381, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-left-tl,
+.x-panel-header-highlight-framed-left-bl,
+.x-panel-header-highlight-framed-left-tr,
+.x-panel-header-highlight-framed-left-br,
+.x-panel-header-highlight-framed-left-tc,
+.x-panel-header-highlight-framed-left-bc,
+.x-panel-header-highlight-framed-left-ml,
+.x-panel-header-highlight-framed-left-mr {
+  zoom: 1;
+  background-image: url(images/panel-header/panel-header-highlight-framed-left-corners.gif); }
+
+/* line 397, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-rtl.x-panel-header-highlight-framed-left-tl, .x-rtl.x-panel-header-highlight-framed-left-ml, .x-rtl.x-panel-header-highlight-framed-left-bl, .x-rtl.x-panel-header-highlight-framed-left-tr, .x-rtl.x-panel-header-highlight-framed-left-mr, .x-rtl.x-panel-header-highlight-framed-left-br {
+  background-image: url(images/panel-header/panel-header-highlight-framed-left-corners-rtl.gif); }
+
+/* line 425, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-left-ml,
+.x-panel-header-highlight-framed-left-mr {
+  zoom: 1;
+  background-image: url(images/panel-header/panel-header-highlight-framed-left-sides.gif);
+  background-repeat: repeat-y; }
+
+/* line 437, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-left-mc {
+  padding: 5px 9px 5px 6px; }
+
+/* line 446, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-strict .x-ie7 .x-panel-header-highlight-framed-left-tl,
+.x-strict .x-ie7 .x-panel-header-highlight-framed-left-bl {
+  position: relative;
+  right: 0; }
+
+/*<if slicer>*/
+/* line 78, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/slicer.scss */
+.x-panel-header-highlight-framed-left:after {
+  display: none;
+  content: "x-slicer:corners:url(images/panel-header/panel-header-highlight-framed-left-corners.gif), corners-rtl:url(images/panel-header/panel-header-highlight-framed-left-corners-rtl.gif), sides:url(images/panel-header/panel-header-highlight-framed-left-sides.gif)"; }
+
+/*</if slicer>*/
+/* */
+/* line 137, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-top {
+  -moz-border-radius-topleft: 5px;
+  -webkit-border-top-left-radius: 5px;
+  border-top-left-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  -webkit-border-top-right-radius: 5px;
+  border-top-right-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 9px 9px 10px 9px;
+  border-width: 1px;
+  border-style: solid;
+  background-color: red; }
+
+/* line 189, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-top-mc {
+  background-color: red; }
+
+/* line 235, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-nbr .x-panel-header-highlight-framed-collapsed-top {
+  padding: 0 !important;
+  border-width: 0 !important;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  background-color: transparent; }
+
+/* line 255, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+body.x-nbr .x-panel-header-highlight-framed-collapsed-top-frameInfo {
+  font-family: dh-5-5-5-5-1-1-1-1-9-9-10-9; }
+
+/* line 322, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-top-tl {
+  background-position: 0 -10px; }
+
+/* line 326, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-top-tr {
+  background-position: right -15px; }
+
+/* line 330, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-top-bl {
+  background-position: 0 -20px; }
+
+/* line 334, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-top-br {
+  background-position: right -25px; }
+
+/* line 338, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-top-ml {
+  background-position: 0 top; }
+
+/* line 342, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-top-mr {
+  background-position: right top; }
+
+/* line 346, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-top-tc {
+  background-position: 0 0; }
+
+/* line 350, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-top-bc {
+  background-position: 0 -5px; }
+
+/* line 357, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-top-tr,
+.x-panel-header-highlight-framed-collapsed-top-br,
+.x-panel-header-highlight-framed-collapsed-top-mr {
+  padding-right: 5px; }
+
+/* line 363, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-top-tl,
+.x-panel-header-highlight-framed-collapsed-top-bl,
+.x-panel-header-highlight-framed-collapsed-top-ml {
+  padding-left: 5px; }
+
+/* line 367, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-top-tc {
+  height: 5px; }
+
+/* line 370, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-top-bc {
+  height: 5px; }
+
+/* line 381, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-top-tl,
+.x-panel-header-highlight-framed-collapsed-top-bl,
+.x-panel-header-highlight-framed-collapsed-top-tr,
+.x-panel-header-highlight-framed-collapsed-top-br,
+.x-panel-header-highlight-framed-collapsed-top-tc,
+.x-panel-header-highlight-framed-collapsed-top-bc,
+.x-panel-header-highlight-framed-collapsed-top-ml,
+.x-panel-header-highlight-framed-collapsed-top-mr {
+  zoom: 1;
+  background-image: url(images/panel-header/panel-header-highlight-framed-collapsed-top-corners.gif); }
+
+/* line 425, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-top-ml,
+.x-panel-header-highlight-framed-collapsed-top-mr {
+  zoom: 1;
+  background-image: url(images/panel-header/panel-header-highlight-framed-collapsed-top-sides.gif);
+  background-repeat: repeat-y; }
+
+/* line 437, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-top-mc {
+  padding: 5px 5px 6px 5px; }
+
+/* line 446, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-strict .x-ie7 .x-panel-header-highlight-framed-collapsed-top-tl,
+.x-strict .x-ie7 .x-panel-header-highlight-framed-collapsed-top-bl {
+  position: relative;
+  right: 0; }
+
+/*<if slicer>*/
+/* line 78, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/slicer.scss */
+.x-panel-header-highlight-framed-collapsed-top:after {
+  display: none;
+  content: "x-slicer:corners:url(images/panel-header/panel-header-highlight-framed-collapsed-top-corners.gif), sides:url(images/panel-header/panel-header-highlight-framed-collapsed-top-sides.gif)"; }
+
+/*</if slicer>*/
+/* */
+/* line 137, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-right {
+  -moz-border-radius-topleft: 5px;
+  -webkit-border-top-left-radius: 5px;
+  border-top-left-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  -webkit-border-top-right-radius: 5px;
+  border-top-right-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 9px 9px 9px 10px;
+  border-width: 1px;
+  border-style: solid;
+  background-color: red; }
+
+/* line 178, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-rtl.x-panel-header-highlight-framed-collapsed-right {
+  background-image: none;
+  background-color: red; }
+
+/* line 189, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-right-mc {
+  background-color: red; }
+
+/* line 235, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-nbr .x-panel-header-highlight-framed-collapsed-right {
+  padding: 0 !important;
+  border-width: 0 !important;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  background-color: transparent; }
+
+/* line 255, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+body.x-nbr .x-panel-header-highlight-framed-collapsed-right-frameInfo {
+  font-family: dh-5-5-5-5-1-1-1-1-9-9-9-10; }
+
+/* line 322, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-right-tl {
+  background-position: 0 -10px; }
+
+/* line 326, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-right-tr {
+  background-position: right -15px; }
+
+/* line 330, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-right-bl {
+  background-position: 0 -20px; }
+
+/* line 334, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-right-br {
+  background-position: right -25px; }
+
+/* line 338, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-right-ml {
+  background-position: 0 right; }
+
+/* line 342, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-right-mr {
+  background-position: right right; }
+
+/* line 346, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-right-tc {
+  background-position: 0 0; }
+
+/* line 350, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-right-bc {
+  background-position: 0 -5px; }
+
+/* line 357, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-right-tr,
+.x-panel-header-highlight-framed-collapsed-right-br,
+.x-panel-header-highlight-framed-collapsed-right-mr {
+  padding-right: 5px; }
+
+/* line 363, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-right-tl,
+.x-panel-header-highlight-framed-collapsed-right-bl,
+.x-panel-header-highlight-framed-collapsed-right-ml {
+  padding-left: 5px; }
+
+/* line 367, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-right-tc {
+  height: 5px; }
+
+/* line 370, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-right-bc {
+  height: 5px; }
+
+/* line 381, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-right-tl,
+.x-panel-header-highlight-framed-collapsed-right-bl,
+.x-panel-header-highlight-framed-collapsed-right-tr,
+.x-panel-header-highlight-framed-collapsed-right-br,
+.x-panel-header-highlight-framed-collapsed-right-tc,
+.x-panel-header-highlight-framed-collapsed-right-bc,
+.x-panel-header-highlight-framed-collapsed-right-ml,
+.x-panel-header-highlight-framed-collapsed-right-mr {
+  zoom: 1;
+  background-image: url(images/panel-header/panel-header-highlight-framed-collapsed-right-corners.gif); }
+
+/* line 397, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-rtl.x-panel-header-highlight-framed-collapsed-right-tl, .x-rtl.x-panel-header-highlight-framed-collapsed-right-ml, .x-rtl.x-panel-header-highlight-framed-collapsed-right-bl, .x-rtl.x-panel-header-highlight-framed-collapsed-right-tr, .x-rtl.x-panel-header-highlight-framed-collapsed-right-mr, .x-rtl.x-panel-header-highlight-framed-collapsed-right-br {
+  background-image: url(images/panel-header/panel-header-highlight-framed-collapsed-right-corners-rtl.gif); }
+
+/* line 425, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-right-ml,
+.x-panel-header-highlight-framed-collapsed-right-mr {
+  zoom: 1;
+  background-image: url(images/panel-header/panel-header-highlight-framed-collapsed-right-sides.gif);
+  background-repeat: repeat-y; }
+
+/* line 437, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-right-mc {
+  padding: 5px 5px 5px 6px; }
+
+/* line 446, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-strict .x-ie7 .x-panel-header-highlight-framed-collapsed-right-tl,
+.x-strict .x-ie7 .x-panel-header-highlight-framed-collapsed-right-bl {
+  position: relative;
+  right: 0; }
+
+/*<if slicer>*/
+/* line 78, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/slicer.scss */
+.x-panel-header-highlight-framed-collapsed-right:after {
+  display: none;
+  content: "x-slicer:corners:url(images/panel-header/panel-header-highlight-framed-collapsed-right-corners.gif), corners-rtl:url(images/panel-header/panel-header-highlight-framed-collapsed-right-corners-rtl.gif), sides:url(images/panel-header/panel-header-highlight-framed-collapsed-right-sides.gif)"; }
+
+/*</if slicer>*/
+/* */
+/* line 137, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-bottom {
+  -moz-border-radius-topleft: 5px;
+  -webkit-border-top-left-radius: 5px;
+  border-top-left-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  -webkit-border-top-right-radius: 5px;
+  border-top-right-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 9px 9px 10px 9px;
+  border-width: 1px;
+  border-style: solid;
+  background-color: red; }
+
+/* line 189, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-bottom-mc {
+  background-color: red; }
+
+/* line 235, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-nbr .x-panel-header-highlight-framed-collapsed-bottom {
+  padding: 0 !important;
+  border-width: 0 !important;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  background-color: transparent; }
+
+/* line 255, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+body.x-nbr .x-panel-header-highlight-framed-collapsed-bottom-frameInfo {
+  font-family: dh-5-5-5-5-1-1-1-1-9-9-10-9; }
+
+/* line 322, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-bottom-tl {
+  background-position: 0 -10px; }
+
+/* line 326, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-bottom-tr {
+  background-position: right -15px; }
+
+/* line 330, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-bottom-bl {
+  background-position: 0 -20px; }
+
+/* line 334, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-bottom-br {
+  background-position: right -25px; }
+
+/* line 338, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-bottom-ml {
+  background-position: 0 bottom; }
+
+/* line 342, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-bottom-mr {
+  background-position: right bottom; }
+
+/* line 346, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-bottom-tc {
+  background-position: 0 0; }
+
+/* line 350, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-bottom-bc {
+  background-position: 0 -5px; }
+
+/* line 357, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-bottom-tr,
+.x-panel-header-highlight-framed-collapsed-bottom-br,
+.x-panel-header-highlight-framed-collapsed-bottom-mr {
+  padding-right: 5px; }
+
+/* line 363, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-bottom-tl,
+.x-panel-header-highlight-framed-collapsed-bottom-bl,
+.x-panel-header-highlight-framed-collapsed-bottom-ml {
+  padding-left: 5px; }
+
+/* line 367, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-bottom-tc {
+  height: 5px; }
+
+/* line 370, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-bottom-bc {
+  height: 5px; }
+
+/* line 381, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-bottom-tl,
+.x-panel-header-highlight-framed-collapsed-bottom-bl,
+.x-panel-header-highlight-framed-collapsed-bottom-tr,
+.x-panel-header-highlight-framed-collapsed-bottom-br,
+.x-panel-header-highlight-framed-collapsed-bottom-tc,
+.x-panel-header-highlight-framed-collapsed-bottom-bc,
+.x-panel-header-highlight-framed-collapsed-bottom-ml,
+.x-panel-header-highlight-framed-collapsed-bottom-mr {
+  zoom: 1;
+  background-image: url(images/panel-header/panel-header-highlight-framed-collapsed-bottom-corners.gif); }
+
+/* line 425, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-bottom-ml,
+.x-panel-header-highlight-framed-collapsed-bottom-mr {
+  zoom: 1;
+  background-image: url(images/panel-header/panel-header-highlight-framed-collapsed-bottom-sides.gif);
+  background-repeat: repeat-y; }
+
+/* line 437, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-bottom-mc {
+  padding: 5px 5px 6px 5px; }
+
+/* line 446, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-strict .x-ie7 .x-panel-header-highlight-framed-collapsed-bottom-tl,
+.x-strict .x-ie7 .x-panel-header-highlight-framed-collapsed-bottom-bl {
+  position: relative;
+  right: 0; }
+
+/*<if slicer>*/
+/* line 78, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/slicer.scss */
+.x-panel-header-highlight-framed-collapsed-bottom:after {
+  display: none;
+  content: "x-slicer:corners:url(images/panel-header/panel-header-highlight-framed-collapsed-bottom-corners.gif), sides:url(images/panel-header/panel-header-highlight-framed-collapsed-bottom-sides.gif)"; }
+
+/*</if slicer>*/
+/* */
+/* line 137, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-left {
+  -moz-border-radius-topleft: 5px;
+  -webkit-border-top-left-radius: 5px;
+  border-top-left-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  -webkit-border-top-right-radius: 5px;
+  border-top-right-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 9px 9px 9px 10px;
+  border-width: 1px;
+  border-style: solid;
+  background-color: red; }
+
+/* line 178, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-rtl.x-panel-header-highlight-framed-collapsed-left {
+  background-image: none;
+  background-color: red; }
+
+/* line 189, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-left-mc {
+  background-color: red; }
+
+/* line 235, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-nbr .x-panel-header-highlight-framed-collapsed-left {
+  padding: 0 !important;
+  border-width: 0 !important;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  background-color: transparent; }
+
+/* line 255, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+body.x-nbr .x-panel-header-highlight-framed-collapsed-left-frameInfo {
+  font-family: dh-5-5-5-5-1-1-1-1-9-9-9-10; }
+
+/* line 322, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-left-tl {
+  background-position: 0 -10px; }
+
+/* line 326, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-left-tr {
+  background-position: right -15px; }
+
+/* line 330, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-left-bl {
+  background-position: 0 -20px; }
+
+/* line 334, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-left-br {
+  background-position: right -25px; }
+
+/* line 338, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-left-ml {
+  background-position: 0 left; }
+
+/* line 342, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-left-mr {
+  background-position: right left; }
+
+/* line 346, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-left-tc {
+  background-position: 0 0; }
+
+/* line 350, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-left-bc {
+  background-position: 0 -5px; }
+
+/* line 357, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-left-tr,
+.x-panel-header-highlight-framed-collapsed-left-br,
+.x-panel-header-highlight-framed-collapsed-left-mr {
+  padding-right: 5px; }
+
+/* line 363, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-left-tl,
+.x-panel-header-highlight-framed-collapsed-left-bl,
+.x-panel-header-highlight-framed-collapsed-left-ml {
+  padding-left: 5px; }
+
+/* line 367, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-left-tc {
+  height: 5px; }
+
+/* line 370, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-left-bc {
+  height: 5px; }
+
+/* line 381, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-left-tl,
+.x-panel-header-highlight-framed-collapsed-left-bl,
+.x-panel-header-highlight-framed-collapsed-left-tr,
+.x-panel-header-highlight-framed-collapsed-left-br,
+.x-panel-header-highlight-framed-collapsed-left-tc,
+.x-panel-header-highlight-framed-collapsed-left-bc,
+.x-panel-header-highlight-framed-collapsed-left-ml,
+.x-panel-header-highlight-framed-collapsed-left-mr {
+  zoom: 1;
+  background-image: url(images/panel-header/panel-header-highlight-framed-collapsed-left-corners.gif); }
+
+/* line 397, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-rtl.x-panel-header-highlight-framed-collapsed-left-tl, .x-rtl.x-panel-header-highlight-framed-collapsed-left-ml, .x-rtl.x-panel-header-highlight-framed-collapsed-left-bl, .x-rtl.x-panel-header-highlight-framed-collapsed-left-tr, .x-rtl.x-panel-header-highlight-framed-collapsed-left-mr, .x-rtl.x-panel-header-highlight-framed-collapsed-left-br {
+  background-image: url(images/panel-header/panel-header-highlight-framed-collapsed-left-corners-rtl.gif); }
+
+/* line 425, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-left-ml,
+.x-panel-header-highlight-framed-collapsed-left-mr {
+  zoom: 1;
+  background-image: url(images/panel-header/panel-header-highlight-framed-collapsed-left-sides.gif);
+  background-repeat: repeat-y; }
+
+/* line 437, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-panel-header-highlight-framed-collapsed-left-mc {
+  padding: 5px 5px 5px 6px; }
+
+/* line 446, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-strict .x-ie7 .x-panel-header-highlight-framed-collapsed-left-tl,
+.x-strict .x-ie7 .x-panel-header-highlight-framed-collapsed-left-bl {
+  position: relative;
+  right: 0; }
+
+/*<if slicer>*/
+/* line 78, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/slicer.scss */
+.x-panel-header-highlight-framed-collapsed-left:after {
+  display: none;
+  content: "x-slicer:corners:url(images/panel-header/panel-header-highlight-framed-collapsed-left-corners.gif), corners-rtl:url(images/panel-header/panel-header-highlight-framed-collapsed-left-corners-rtl.gif), sides:url(images/panel-header/panel-header-highlight-framed-collapsed-left-sides.gif)"; }
+
+/*</if slicer>*/
+/* */
+/* line 396, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
+.x-panel .x-panel-header-highlight-framed-top {
+  border-bottom-width: 1px !important; }
+/* line 400, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
+.x-panel .x-panel-header-highlight-framed-right {
+  border-left-width: 1px !important; }
+/* line 404, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
+.x-panel .x-panel-header-highlight-framed-bottom {
+  border-top-width: 1px !important; }
+/* line 408, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
+.x-panel .x-panel-header-highlight-framed-left {
+  border-right-width: 1px !important; }
+
+/* line 414, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
+.x-nbr .x-panel-header-highlight-framed-collapsed-top {
+  border-bottom-width: 0 !important; }
+/* line 418, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
+.x-nbr .x-panel-header-highlight-framed-collapsed-right {
+  border-left-width: 0 !important; }
+/* line 422, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
+.x-nbr .x-panel-header-highlight-framed-collapsed-bottom {
+  border-top-width: 0 !important; }
+/* line 426, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
+.x-nbr .x-panel-header-highlight-framed-collapsed-left {
+  border-right-width: 0 !important; }
+
+/* line 522, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
+.x-panel-header-highlight-framed-vertical .x-panel-header-text-container {
+  -webkit-transform: rotate(90deg);
+  -webkit-transform-origin: 0 0;
+  -moz-transform: rotate(90deg);
+  -moz-transform-origin: 0 0;
+  -o-transform: rotate(90deg);
+  -o-transform-origin: 0 0;
+  transform: rotate(90deg);
+  transform-origin: 0 0; }
+  /* line 36, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/rotate-element.scss */
+  .x-ie9m .x-panel-header-highlight-framed-vertical .x-panel-header-text-container {
+    background-color: red;
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1), progid:DXImageTransform.Microsoft.Chroma(color=red); }
+
+/* line 527, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
+.x-panel-header-highlight-framed-vertical .x-rtl.x-panel-header-text-container {
+  -webkit-transform: rotate(270deg);
+  -webkit-transform-origin: 100% 0;
+  -moz-transform: rotate(270deg);
+  -moz-transform-origin: 100% 0;
+  -o-transform: rotate(270deg);
+  -o-transform-origin: 100% 0;
+  transform: rotate(270deg);
+  transform-origin: 100% 0; }
+  /* line 36, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/rotate-element.scss */
+  .x-ie9m .x-panel-header-highlight-framed-vertical .x-rtl.x-panel-header-text-container {
+    background-color: red;
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3), progid:DXImageTransform.Microsoft.Chroma(color=red); }
+
+/* line 551, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
+.x-panel-header-highlight-framed .x-panel-header-icon {
+  width: 16px;
+  height: 16px;
+  background-position: center center; }
+/* line 556, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
+.x-panel-header-highlight-framed .x-panel-header-glyph {
+  color: white;
+  font-size: 16px;
+  line-height: 16px;
+  opacity: 0.5; }
+  /* line 572, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
+  .x-ie8m .x-panel-header-highlight-framed .x-panel-header-glyph {
+    color: #ff7f7f; }
+
+/* line 580, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
+.x-panel-header-highlight-framed-horizontal .x-panel-header-icon-before-title {
+  margin: 0 6px 0 0; }
+/* line 585, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
+.x-panel-header-highlight-framed-horizontal .x-rtl.x-panel-header-icon-before-title {
+  margin: 0 0 0 6px; }
+/* line 590, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
+.x-panel-header-highlight-framed-horizontal .x-panel-header-icon-after-title {
+  margin: 0 0 0 6px; }
+/* line 595, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
+.x-panel-header-highlight-framed-horizontal .x-rtl.x-panel-header-icon-after-title {
+  margin: 0 6px 0 0; }
+
+/* line 602, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
+.x-panel-header-highlight-framed-vertical .x-panel-header-icon-before-title {
+  margin: 0 0 6px 0; }
+/* line 607, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
+.x-panel-header-highlight-framed-vertical .x-rtl.x-panel-header-icon-before-title {
+  margin: 0 0 6px 0; }
+/* line 612, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
+.x-panel-header-highlight-framed-vertical .x-panel-header-icon-after-title {
+  margin: 6px 0 0 0; }
+/* line 617, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
+.x-panel-header-highlight-framed-vertical .x-rtl.x-panel-header-icon-after-title {
+  margin: 6px 0 0 0; }
+
+/* line 625, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
+.x-panel-header-highlight-framed-horizontal .x-tool-after-title {
+  margin: 0 0 0 6px; }
+/* line 630, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
+.x-panel-header-highlight-framed-horizontal .x-rtl.x-tool-after-title {
+  margin: 0 6px 0 0; }
+/* line 635, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
+.x-panel-header-highlight-framed-horizontal .x-tool-before-title {
+  margin: 0 6px 0 0; }
+/* line 640, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
+.x-panel-header-highlight-framed-horizontal .x-rtl.x-tool-before-title {
+  margin: 0 0 0 6px; }
+
+/* line 647, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
+.x-panel-header-highlight-framed-vertical .x-tool-after-title {
+  margin: 6px 0 0 0; }
+/* line 652, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
+.x-panel-header-highlight-framed-vertical .x-rtl.x-tool-after-title {
+  margin: 6px 0 0 0; }
+/* line 657, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
+.x-panel-header-highlight-framed-vertical .x-tool-before-title {
+  margin: 0 0 6px 0; }
+/* line 662, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
+.x-panel-header-highlight-framed-vertical .x-rtl.x-tool-before-title {
+  margin: 0 0 6px 0; }
+
+/* line 670, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
+.x-rtl.x-panel-header-highlight-framed-collapsed-border-right {
+  border-right-width: 1px !important; }
+/* line 673, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
+.x-rtl.x-panel-header-highlight-framed-collapsed-border-left {
+  border-left-width: 1px !important; }
+
+/* line 684, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
+.x-panel-highlight-framed-resizable {
+  overflow: visible; }
+  /* line 687, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
+  .x-panel-highlight-framed-resizable .x-panel-handle {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0; }
+  /* line 696, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
+  .x-panel-highlight-framed-resizable .x-panel-handle-north-br {
+    top: -5px; }
+  /* line 699, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
+  .x-panel-highlight-framed-resizable .x-panel-handle-south-br {
+    bottom: -5px; }
+  /* line 702, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
+  .x-panel-highlight-framed-resizable .x-panel-handle-east-br {
+    right: -5px; }
+  /* line 705, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
+  .x-panel-highlight-framed-resizable .x-panel-handle-west-br {
+    left: -5px; }
+  /* line 708, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
+  .x-panel-highlight-framed-resizable .x-panel-handle-northwest-br {
+    left: -5px;
+    top: -5px; }
+  /* line 712, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
+  .x-panel-highlight-framed-resizable .x-panel-handle-northeast-br {
+    right: -5px;
+    top: -5px; }
+  /* line 716, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
+  .x-panel-highlight-framed-resizable .x-panel-handle-southeast-br {
+    right: -5px;
+    bottom: -5px; }
+  /* line 720, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Panel.scss */
+  .x-panel-highlight-framed-resizable .x-panel-handle-southwest-br {
+    left: -5px;
+    bottom: -5px; }
+
+/* line 2, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/border-management.scss */
+.x-panel-highlight-framed-outer-border-l {
+  border-left-color: #317040 !important;
+  border-left-width: 1px !important; }
+
+/* line 6, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/border-management.scss */
+.x-panel-highlight-framed-outer-border-b {
+  border-bottom-color: #317040 !important;
+  border-bottom-width: 1px !important; }
+
+/* line 10, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/border-management.scss */
+.x-panel-highlight-framed-outer-border-bl {
+  border-bottom-color: #317040 !important;
+  border-bottom-width: 1px !important;
+  border-left-color: #317040 !important;
+  border-left-width: 1px !important; }
+
+/* line 16, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/border-management.scss */
+.x-panel-highlight-framed-outer-border-r {
+  border-right-color: #317040 !important;
+  border-right-width: 1px !important; }
+
+/* line 20, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/border-management.scss */
+.x-panel-highlight-framed-outer-border-rl {
+  border-right-color: #317040 !important;
+  border-right-width: 1px !important;
+  border-left-color: #317040 !important;
+  border-left-width: 1px !important; }
+
+/* line 26, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/border-management.scss */
+.x-panel-highlight-framed-outer-border-rb {
+  border-right-color: #317040 !important;
+  border-right-width: 1px !important;
+  border-bottom-color: #317040 !important;
+  border-bottom-width: 1px !important; }
+
+/* line 32, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/border-management.scss */
+.x-panel-highlight-framed-outer-border-rbl {
+  border-right-color: #317040 !important;
+  border-right-width: 1px !important;
+  border-bottom-color: #317040 !important;
+  border-bottom-width: 1px !important;
+  border-left-color: #317040 !important;
+  border-left-width: 1px !important; }
+
+/* line 40, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/border-management.scss */
+.x-panel-highlight-framed-outer-border-t {
+  border-top-color: #317040 !important;
+  border-top-width: 1px !important; }
+
+/* line 44, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/border-management.scss */
+.x-panel-highlight-framed-outer-border-tl {
+  border-top-color: #317040 !important;
+  border-top-width: 1px !important;
+  border-left-color: #317040 !important;
+  border-left-width: 1px !important; }
+
+/* line 50, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/border-management.scss */
+.x-panel-highlight-framed-outer-border-tb {
+  border-top-color: #317040 !important;
+  border-top-width: 1px !important;
+  border-bottom-color: #317040 !important;
+  border-bottom-width: 1px !important; }
+
+/* line 56, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/border-management.scss */
+.x-panel-highlight-framed-outer-border-tbl {
+  border-top-color: #317040 !important;
+  border-top-width: 1px !important;
+  border-bottom-color: #317040 !important;
+  border-bottom-width: 1px !important;
+  border-left-color: #317040 !important;
+  border-left-width: 1px !important; }
+
+/* line 64, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/border-management.scss */
+.x-panel-highlight-framed-outer-border-tr {
+  border-top-color: #317040 !important;
+  border-top-width: 1px !important;
+  border-right-color: #317040 !important;
+  border-right-width: 1px !important; }
+
+/* line 70, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/border-management.scss */
+.x-panel-highlight-framed-outer-border-trl {
+  border-top-color: #317040 !important;
+  border-top-width: 1px !important;
+  border-right-color: #317040 !important;
+  border-right-width: 1px !important;
+  border-left-color: #317040 !important;
+  border-left-width: 1px !important; }
+
+/* line 78, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/border-management.scss */
+.x-panel-highlight-framed-outer-border-trb {
+  border-top-color: #317040 !important;
+  border-top-width: 1px !important;
+  border-right-color: #317040 !important;
+  border-right-width: 1px !important;
+  border-bottom-color: #317040 !important;
+  border-bottom-width: 1px !important; }
+
+/* line 86, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/border-management.scss */
+.x-panel-highlight-framed-outer-border-trbl {
+  border-color: #317040 !important;
+  border-width: 1px !important; }
